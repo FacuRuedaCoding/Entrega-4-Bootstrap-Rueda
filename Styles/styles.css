@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #c57777;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.btn{
+    transition: 1s;
+}
+.btn:hover{
+    background-color: #282888;
+}
+.section__parrafo{
+    font-family: 'Roboto', sans-serif
+}
+.paddingT{padding-top: 50px;}
+.centrar{text-align: center;}
+.fontStyle{ font-family: 'Roboto', sans-serif}
+.footerBg{background-color: rgb(198, 240, 14);}
+.paddingTB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footerBg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerBg h3 {color: #111105; text-align: center;}
+
+.icon{
+    width: 90px;
+    transition: 1s;
+}
+.icon:hover{
+    transform: translateY(-10px);cursor: pointer;
+}
+.redesSociales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
