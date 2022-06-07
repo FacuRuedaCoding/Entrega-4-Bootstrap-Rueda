@@ -54,3 +54,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.container__tienda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
